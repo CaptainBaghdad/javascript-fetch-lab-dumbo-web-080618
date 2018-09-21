@@ -22,6 +22,7 @@ function showResults(json) {
 }
 
 function forkRepo() {
+  /api.github.com\/repos\/learn-co-curriculum\/javascript-fetch-lab/
  
   //use fetch to fork it!
   fetch(`/api.github.com/repos/${repo}/${title}/forks`,{ 
